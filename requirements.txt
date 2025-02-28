@@ -4,8 +4,6 @@ cloudpickle>=3.0.0
 coffea==0.7.21
 colorama==0.4.6
 correctionlib==2.2.2
-curl
-cfitsio
 dask
 dask-jobqueue
 distributed
@@ -21,7 +19,6 @@ numba
 pandas==2.0.3
 pyarrow==12.0.1
 PyYAML==6.0.1
-root
 scikit-learn<=1.5.0
 scipy
 setuptools<71
@@ -33,5 +30,4 @@ vector==1.1.0
 xgboost==2.0.3
 xrootd
 xxhash
-xgboost_env
 xgboost
