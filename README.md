@@ -15,14 +15,10 @@ First, create a virtual environment (`micromamba` is recommended):
 #create it in /nobackup/micromamba NOT in $HOME
 
 [esledge@cmslpc333 nobackup]$ "${SHELL}" <(curl -L micro.mamba.pm/install.sh)
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
-100  3059  100  3059    0     0   2583      0  0:00:01  0:00:01 --:--:--  2583
 Micromamba binary folder? [~/.local/bin] .local/bin
 Init shell (bash)? [Y/n] y
 Configure conda-forge? [Y/n] y
-Prefix location? [~/micromamba] /uscms/home/esledge/nobackup/micromamba
+Prefix location? [~/micromamba] /uscms/home/$USER/nobackup/micromamba
 
 # You may need to restart your shell or run source ~/.bashrc
 source ~/.bashrc
