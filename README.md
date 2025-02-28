@@ -3,6 +3,7 @@ A python-based Higgs to mu mu analysis for CMS Run 3
 
 ## Setting up environment 
 (adapted from HH4b analysis)
+Working on el9 node of LPC cluster
 ### Creating a virtual environment
 
 First, create a virtual environment (`micromamba` is recommended):
